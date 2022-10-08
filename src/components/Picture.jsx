@@ -4,10 +4,12 @@ const Picture = ({ data }) => {
   return (
     <div className="photo">
       <div className="imgDiv">
-        <img src={data.src.large} alt="img" />
+        <img src={data.src.large} alt="imges" />
       </div>
       <div className="autor">
-        <p style={{ color: "black",textShadow: "grey 3px 3px 3px" }}>{data.photographer}</p>
+        <p style={{ color: "black", textShadow: "grey 3px 3px 3px" }}>
+          {data.photographer}
+        </p>
       </div>
     </div>
   );
