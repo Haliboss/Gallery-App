@@ -3,7 +3,6 @@ import Picture from "../components/Picture";
 import data from "../helper/data";
 
 const Homepage = () => {
-    console.log(data);
     return (
         <div>
             <h1>best photos</h1>
