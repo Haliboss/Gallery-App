@@ -7,7 +7,7 @@ const Homepage = () => {
     return (
         <div>
             <h1>best photos</h1>
-            <div className="pictures">
+            <div className="mainPhoto">
                 {data.map((data) => {
                     return <Picture data={data} />
                 })}
