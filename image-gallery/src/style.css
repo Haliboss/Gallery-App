@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", sans-serif;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  margin: 7px;
+  text-align: center;
+  color: rgb(209, 15, 15);
+  font-family: 'Dancing Script', cursive;
+  text-transform: capitalize;
+  font-size: 3rem;
+}
+
+h1:hover {
+  transform: skew(5deg, 5deg);
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pictures .picture {
+  font-size: 1.2rem;
+  padding: 1rem;
+  width: 400px;
+}
+
+.pictures .picture .imageContainer {
+  height: 40vh;
+}
+
+.pictures .picture .imageContainer img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 10px 8px 6px rgb(121, 121, 121);
+  object-fit: cover; /*? resimleri döşe */
+  transition: all 0.3s ease;
+}
+
+.pictures .picture .imageContainer img:hover {
+  transform: rotate(-1turn);
+}
+
+.pictures .picture .info {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
