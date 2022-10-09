@@ -1,9 +1,9 @@
 const data = [
   {
-    photographer: 'Lucía Montenegro',
+    photographer: 'Harvey ',
     src: {
       large:
-        'https://images.pexels.com/photos/12185664/pexels-photo-12185664.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+        'https://images.pexels.com/photos/1368382/pexels-photo-1368382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     },
   },
   {
